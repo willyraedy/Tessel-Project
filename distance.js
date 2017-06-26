@@ -35,3 +35,5 @@ var p2 = {
 };
 
 console.log(getDistance(p1, p2));
+
+module.exports = getDistance;

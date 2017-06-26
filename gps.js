@@ -9,6 +9,7 @@ For best results, try it while outdoors.
 
 var tessel = require('tessel');
 var gpsLib = require('gps-a2235h');
+var getDistance = require('distance.js')
 
 var gps = gpsLib.use(tessel.port['A']);
 
