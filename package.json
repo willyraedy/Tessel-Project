@@ -13,6 +13,7 @@
   "license": "MIT",
   "readme": "A bare bones Tessel 2 blinky script.",
   "dependencies": {
-    "gps-a2235h": "^0.3.1"
+    "gps-a2235h": "^0.3.1",
+    "wifi-location": "0.0.1"
   }
 }
