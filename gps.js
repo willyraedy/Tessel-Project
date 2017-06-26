@@ -36,12 +36,12 @@ gps.on('ready', function () {
   gps.on('altitude', function (alt) {
 
     // test blinker
-    // if (true){
-    // setInterval(function () {
-    //   tessel.led[2].toggle()
-    //   tessel.led[3].toggle()
-    // },100)
-    // }
+    if (true){
+    setInterval(function () {
+      tessel.led[2].toggle()
+      tessel.led[3].toggle()
+    },100)
+    }
 
     console.log('Got an altitude of', alt.alt, 'meters (timestamp: ' + alt.timestamp + ')');
   });
